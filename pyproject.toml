@@ -4,7 +4,9 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "nuki-sesame"
+version = "0.0.0" # Placeholder, will be overridden by setuptools_scm
 description = "A basic command-line interface for interacting with the Nuki Web API."
+authors = ["Tomislav Gudlek"]
 license = "MIT"
 
 [tool.poetry.dependencies]
